@@ -51,7 +51,7 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
 
 }
 body{
-    font-family: 'OpenSans';
+    font-family: 'Akkurat', sans-serif;
     background: #000;
     
     margin: 0;
@@ -431,7 +431,7 @@ strong,
 		text-transform: capitalize;
 		text-align: center;
 		font-size:18px;
-    	font-family: 'Opensans';
+    	font-family: 'Akkurat', sans-serif;
 		font-weight: normal;
 		padding: 14px 16px;
 		-webkit-transition: 0.3s;
@@ -652,7 +652,7 @@ strong,
 		left: 64px;
 		top: 17px;
 		color: #fff;
-		font-family: "Opensans";
+		font-family: "Akkurat";
 		text-transform: uppercase;
 		text-align: left;
 		width: 100px;
@@ -682,7 +682,7 @@ strong,
 	margin-left: 9px;
 	color: #000;
 	font-size:18px;
-	font-family: 'Opensans';
+	font-family: 'Akkurat', sans-serif;
 	font-weight: normal;
 }
 .page-footer a:first-child{
@@ -775,7 +775,7 @@ strong,
 }
 	.p-footer .text{
 		font-size: 12px;
-		font-family: "Opensans";
+		font-family: "Akkurat";
 		text-transform: uppercase;
 	}
 .p-footer:hover .icon{
@@ -798,7 +798,7 @@ strong,
 	border-radius: 100%;
     margin-left: -24px;   
 	transition: 0.3s;
-	font-family: "Opensans";
+	font-family: "Akkurat";
 	color: #fff;
 	font-size: 14px;
 }
@@ -983,7 +983,7 @@ strong,
     -webkit-transition: 0.6s;
     transition: 0.6s;
 	text-align: left;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	color: #000;
 }
 
@@ -998,7 +998,7 @@ strong,
     text-align: left;
     display: inline-block;
 	color: #000;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: bold;
 	
 }
@@ -1011,7 +1011,7 @@ strong,
 	margin-bottom: 0.3em;
     display: block;
 	color: #fff;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 }
 
 /* Page general structure */
@@ -1022,12 +1022,12 @@ strong,
 	font-size: 0.8em;
 }
 .page-cent .text{	
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	color: #000;
 	text-align: left;
 }
 .page p{    
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
     color: #000;
     font-size: 16px;
     margin-bottom: 0.75rem;
@@ -1057,7 +1057,7 @@ strong,
 .page h2,
 .page h3,
 .page h4{
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
     color: #000;
 }
 
@@ -1160,7 +1160,7 @@ strong,
 .page-home .content h3{
 	text-align: left;
 	text-transform: uppercase;
-	font-size: 32px;
+	font-size: 50px;
 	line-height: 1em;
 	font-weight: bold;
 	border-left: 4px solid currentColor;
@@ -1174,7 +1174,7 @@ strong,
 	text-align: left;
 	position: absolute;
 	position: relative;
-	padding-left: 40px;
+	padding-left: 3px;
 	color: rgba(0,0,0,0.2);
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
@@ -1207,7 +1207,7 @@ strong,
 	right: 0;
 	height: 50%;
 	width: 1px;
-	border-left: 1px solid #fff; 
+	border-left: 0px solid #000;
 }
 /* Logo */
 .pane-when .logo{
@@ -1252,7 +1252,7 @@ strong,
 .pane-when .clock .text{
     position: relative; 
     width: 100%;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: normal;
     letter-spacing: 0;
     margin-top: 0.5em;
@@ -1278,7 +1278,7 @@ strong,
     font-size: 240px;
 	letter-spacing: -0.02em;
 	line-height: 1;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: 500;
     color: #fff;
     display: block;
@@ -1290,7 +1290,7 @@ strong,
 	letter-spacing: 0em;
 	top: 1.4em;
 	text-transform: uppercase;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif, sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 	width: auto;
@@ -1307,7 +1307,7 @@ strong,
 	position: relative;
 	width: 100%;
 /*	text-transform: uppercase;*/
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: bold;
 	font-size: 24px;
 	color: #fff;
@@ -1362,7 +1362,7 @@ strong,
 .pane-when footer p{
 	color: #000;
 	text-align: center;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 }
 /* 6.5 Registration form */
 .page-register .content{
@@ -1382,21 +1382,23 @@ strong,
     background: transparent;
 /*    background: #f4f;*/
     border: none;
-    color: #fff;
+    color: #000;
     padding: 0em 1em;
 	padding-bottom: 0.3em;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
     font-size: 20px;
     box-shadow: none;
     display: inline-block;
 /*    min-width: 400px;*/
 	position: absolute;
     width: auto;
-	width: 100%;
+	width: 40%;
 	bottom: 0;
 	left: 80px;
 	right: 0;
 	margin-bottom: 0;
+        max-width: 300px;
+    border: 1px solid #000;
 }
 .page .form.send_email_form input{
 	
@@ -1404,7 +1406,7 @@ strong,
 .page .form.send_email_form .fields{
 	margin-top: 48px;
 	background: rgba(255, 255, 255, 0.10);
-	padding-left: 16px;
+	padding-left: 0px;
 	height: 46px;
 	min-height: 36px;
 }
@@ -1415,7 +1417,7 @@ strong,
 }
 .page .form label{
 	display: inline-block;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: bold;
     font-size: 20px;
     color: #000;
@@ -1443,7 +1445,7 @@ strong,
 .page .form button{ 
     background: #000;
     color: #fff;
-    font-family: 'Opensans';
+    font-family: 'Akkurat', sans-serif;
 	font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
@@ -1487,7 +1489,7 @@ strong,
     padding: 0.5em 1em;
     min-width: 200px;    
     font-size: 20px;
-	font-family: "Opensans";
+	font-family: "Akkurat";
     display: block;
     width: 100%;
     box-shadow: none;
